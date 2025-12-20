@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1766146954489",
+    "date": "2025-12-19T12:22:34.489Z",
+    "gameType": "draw",
+    "winnerName": "Ff",
+    "score": 546,
+    "company": "xs",
+    "product": "as"
+  },
+  {
+    "id": "1766148047728",
+    "date": "2025-12-19T12:40:47.728Z",
+    "gameType": "draw",
+    "winnerName": "444",
+    "score": 466,
+    "company": "as",
+    "product": "as"
+  },
+  {
+    "id": "1766148487273",
+    "date": "2025-12-19T12:48:07.273Z",
+    "gameType": "draw",
+    "winnerName": "qw",
+    "score": 490,
+    "company": "qw",
+    "product": "qw"
+  },
+  {
+    "id": "1766148490827",
+    "date": "2025-12-19T12:48:10.827Z",
+    "gameType": "draw",
+    "winnerName": "qw",
+    "score": 490,
+    "company": "qw",
+    "product": "qw"
+  }
+]
