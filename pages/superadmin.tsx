@@ -115,7 +115,7 @@ export default function SuperAdminPortal() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'x-admin-key': ADMIN_KEY
+                    'x-admin-key': sessionStorage.getItem('admin_key') || ''
                 },
                 body: JSON.stringify({ role: newRole })
             });
