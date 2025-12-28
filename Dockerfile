@@ -1,12 +1,17 @@
 # Base image
 FROM node:18-alpine
 
+
+# Install build dependencies for native modules (sqlite3)
+RUN apk add --no-cache python3 make g++
+
 WORKDIR /app
 
-# Install dependencies (including ts-node for production use in this specific setup)
-# Note: For optimized builds, we'd compile TS to JS, but for this hackathon speed setup, running ts-node is fine.
+# Install dependencies
 COPY package.json package-lock.json* ./
-RUN npm ci
+# Use npm install instead of ci to be more forgiving with cross-platform lockfiles
+RUN npm install
+
 
 # Copy source
 COPY . .
